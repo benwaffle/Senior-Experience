@@ -1,0 +1,52 @@
+Memory corruption exploits
+--------------------------
+
+Smashing the stack for fun and profit
+http://www.phrack.org/issues.html?issue=49&id=14#article
+
+w00w00 on heap overflows
+http://packetstormsecurity.com/files/view/13877/w00w00-heap-overflows.txt
+
+Advances in format string exploitation
+http://www.phrack.org/issues.html?issue=59&id=7#article
+
+
+Exploitation and shellcode
+--------------------------
+
+http://www.metasploit.com/
+
+
+Early defenses
+--------------
+
+StackGuard
+ftp://gcc.gnu.org/pub/gcc/summit/2003/Stackguard.pdf
+
+StackShield
+http://www.angelfire.com/sk/stackshield/
+
+ProPolice
+http://www.research.ibm.com/trl/projects/security/ssp/
+
+StackPatch
+http://www.openwall.com/linux/
+
+NX-bit
+http://en.wikipedia.org/wiki/NX_bit
+
+PaX
+http://pax.grsecurity.net/
+
+
+Bypasses
+--------
+
+Defeating Solar Designer's Non-executable Stack Patch
+http://insecure.org/sploits/non-executable.stack.problems.html
+
+BYPASSING STACKGUARD AND STACKSHIELD
+http://phrack.org/issues.html?issue=56&id=5#article
+
+Advanced return-into-lib(c) exploits
+http://www.phrack.org/issues.html?issue=58&id=4#article

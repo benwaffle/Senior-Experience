@@ -1,0 +1,49 @@
+1. Introduction
+
+2. Introduction to Assembly, program memory layout, debugging
+
+3. Memory corruption exploits
+(Smashing the stack for fun and profit, w00w00 on heap overflows, possibly
+book, Exploiting format string vulnerabilities)
+
+4. Code-injection, writing shellcode
+(metasploit, possibly book)
+
+5. Early defenses
+(Papers: StackGuard, StackShield, ProPolice, StackPatch, NX, PaX)
+
+6. Bypasses
+(bulba and Kil3r bypassing Stackguard and Stackshield, return-to-libc)
+
+7. ASLR
+(papers: ASLR, ASLR Smack & Laugh Reference, on the effectiveness of
+address-space randomization)
+
+8. Advanced exploitation techniques
+(Papers: Heap spraying, return-oriented programming, jump-oriented programming)
+
+9. Secure coding practices, retrofitting protections in existing code
+(CCured, GCC extensions, others?)
+
+10. Code testing, bug detection
+(Papers: Fuzzing, symbolic execution, KLEE)
+
+11. Buffer overflow protection techniques
+(Papers: WIT, Bouncer, bounds checking)
+
+12. Control-flow protection techniques
+(Papers: Taint-analysis, CFI, control-flow locking)
+
+13. Mitigation techniques
+(Papers: Instruction-set Randomization, Orp,  kBouncer, Sandboxing, SFI)
+
+14-15. Cases
+The chromium browser, Pwn2Own
+Flash, null pointer exploit
+iPhone jail breaking
+Worms
+
+Possible books:
+The shellcoder's handbook
+
+
