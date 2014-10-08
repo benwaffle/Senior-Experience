@@ -1,0 +1,11 @@
+%rdi
+%rsi
+%rdx
+%rcx
+%r8
+%r9
+
+rest in stack
+
+stdargs:
+ %al specifies # of vector registers used
